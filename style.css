@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+body {
+    background-image: url("assets/sand.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: 'STIX Two Math', serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 80px;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+}
+
+hr {
+    width: 500px;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+    transition-delay: 750ms;
+}
+
+p {
+    font-size: 18px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 25px;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+    transition-delay: 1.5s;
+}
+
+.load {
+    opacity: 1;
+}
