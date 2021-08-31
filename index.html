@@ -20,10 +20,10 @@
         <div id="fadeIn">
             <h1 class="center" id="mainTitle">Learned Symbols</h1>
             <hr class="">
-            <p class="">Throughout your journey in Dolurrh, you will encounter new symbols that you can decipher to unlock new meanings and further your understanding of the language of Dolurrh. </p>
+            <p class="">Throughout your journey in Dolurrh, you will encounter new symbols that you can decipher to unlock new meanings and further your understanding of the language of Dolurrh. It is understanding this language that can make one's journey through the afterlife easier. None know who created the language, nor if it serves a grander purpose, but it lies about, waiting to be deciphered. Most spirits, shades, and husks concern themselves very little with the presence of these symbols, due to a combination of disinterest and lack of understanding. But you are different. You are more tangible, more solid, more capable. In this language lies your key to escape. With the help of The Unknown Linguist, the foundation has been laid for your understanding, and your learning will be documented here.</p>
         </div>
 
-        <div class="container">
+        <div class="container" id="symbols">
             <div class="row">
                 <div class="col">
                     <figure class="figure">
@@ -41,6 +41,12 @@
                     <figure class="figure">
                         <img src="assets/do.PNG" class="figure-img img-fluid rounded" alt="do">
                         <figcaption>do</figcaption>
+                    </figure>
+                </div>
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/did.PNG" class="figure-img img-fluid rounded" alt="did">
+                        <figcaption>did</figcaption>
                     </figure>
                 </div>
                 <div class="col">
@@ -67,12 +73,6 @@
                         <figcaption></figcaption>
                     </figure>
                 </div>
-                <div class="col">
-                    <figure class="figure">
-                        <img src="" class="figure-img img-fluid rounded" alt="">
-                        <figcaption></figcaption>
-                    </figure>
-                </div>
             </div>
         </div>
         
@@ -83,6 +83,7 @@
             for (let i = 0; i < children.length; i++) {
                 children[i].className += " load";
             }
+            document.getElementById("symbols").className += " load"
         </script>
     </body>
 </html>

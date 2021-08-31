@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 
 body {
-    background-image: url("assets/sand.jpg");
+    background-image: url("assets/light.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 80px;
     opacity: 0;
     -webkit-transition: opacity 2s ease-in;
@@ -25,36 +25,44 @@ h1 {
 hr {
     width: 500px;
     margin: 0 auto;
+    margin-top: 13px;
     opacity: 0;
     -webkit-transition: opacity 2s ease-in;
        -moz-transition: opacity 2s ease-in;
         -ms-transition: opacity 2s ease-in;
          -o-transition: opacity 2s ease-in;
             transition: opacity 2s ease-in;
-    transition-delay: 750ms;
+    transition-delay: 1s;
 }
 
 p {
-    font-size: 18px;
-    width: 700px;
+    font-size: 16px;
+    width: 550px;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 50px;
     opacity: 0;
     -webkit-transition: opacity 2s ease-in;
        -moz-transition: opacity 2s ease-in;
         -ms-transition: opacity 2s ease-in;
          -o-transition: opacity 2s ease-in;
             transition: opacity 2s ease-in;
-    transition-delay: 1.5s;
-}
-
-.load {
-    opacity: 1;
+    transition-delay: 2s;
 }
 
 .container {
     margin: 0 auto;
     margin-top: 25px;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+    transition-delay: 3s;
+}
+
+.load {
+    opacity: 1;
 }
 
 #hide {
