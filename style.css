@@ -101,3 +101,10 @@ a:hover {
 a:active {
     color: #56534a;
 }
+
+#toggler {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: block;
+}
